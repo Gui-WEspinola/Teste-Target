@@ -12,7 +12,7 @@ public class QuintaQuestao {
         System.out.println(inverterString(teste));
     }
 
-    private static String inverterString(String texto) {
+    public static String inverterString(String texto) {
         StringBuilder sb = new StringBuilder();
 
         for (int i = texto.length() - 1; i >= 0; i--) {
